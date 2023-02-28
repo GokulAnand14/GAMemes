@@ -16,8 +16,8 @@ from googleapiclient.discovery import build
 #This function use reddit API to get the meme's information
 def get_data():
     reddit = praw.Reddit(
-        client_id='R-oUGTprEw0vapxKVnxrSw',
-        client_secret='If0E9QLZ40s3u5VIk9cGrGOWeDRP5g',
+        client_id='replace_with_your',
+        client_secret='replace_with_your',
         user_agent='GAMemes',
     ) 
     subreddit = reddit.subreddit('memes')
